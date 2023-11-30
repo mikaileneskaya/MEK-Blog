@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+}
+
+.toplar {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 20px;
+    animation: 2s bounce ease infinite;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.top1 {
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.top2 {
+    background-color: rgb(255, 255, 255, 0.9);
+    animation-delay: .25s;
+}
+
+.top3 {
+    background-color: rgb(255, 255, 255, 0.9);
+    animation-delay: .5s;
+}
+
+.top4 {
+    background-color: rgb(255, 255, 255, 0.9);
+    animation-delay: .75s;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(70px);
+    }
+}

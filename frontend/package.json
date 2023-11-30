@@ -1,0 +1,28 @@
+{
+  "name": "blog2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.5.4",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "marked": "^9.1.5",
+    "mongoose": "^7.6.1",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18",
+    "react-router-dom": "^6.18.0",
+    "strapi-sdk-js": "^2.3.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.5"
+  }
+}

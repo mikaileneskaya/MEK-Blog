@@ -1,0 +1,52 @@
+.card {
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 80px 20px 40px;
+    width: 65%;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+    transition: 0.3s;
+    background-color: rgb(14, 14, 14);
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.img {
+    display: inline-block;
+    object-fit: cover;
+    user-select: none;
+}
+
+.imgr {
+    object-fit: cover;
+}
+
+.content {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.h33 {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255, 0.99);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pp {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.85);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

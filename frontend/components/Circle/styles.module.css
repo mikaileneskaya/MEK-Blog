@@ -1,0 +1,11 @@
+.circle {
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    border: 7px double rgb(161, 61, 255);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 4;
+}

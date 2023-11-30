@@ -1,0 +1,11 @@
+.circle2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(138, 80, 165);
+    transform: scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 9999;
+}

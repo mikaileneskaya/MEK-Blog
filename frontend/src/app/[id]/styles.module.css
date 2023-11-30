@@ -1,0 +1,49 @@
+.mainn {
+    display: block;
+}
+
+.imgContainer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+
+.imgg {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    user-select: none;
+}
+
+.h11 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 2;
+}
+
+.pp {
+    display: block;
+    padding: 50px 0;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.85);
+    line-height: 1.2;
+}

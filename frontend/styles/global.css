@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(240, 248, 255);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+html {
+    background-color: rgb(14, 14, 14);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(14, 14, 14);
+}
+
+main {
+    position: relative;
+    display: block;
+    background-color: rgb(14, 14, 14);
+}
+
+h2 {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(161, 61, 255);
+    transform: scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 9999;
+}

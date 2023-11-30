@@ -1,0 +1,141 @@
+
+.container {
+    background: rgb(2, 1, 4);
+    display: block;
+    text-align: center;
+}
+
+.baslik {
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 320px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(65, 64, 179), rgb(212, 41, 215));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.baslik:hover {
+    transform: translateY(-70px);
+}
+
+.metin {
+    color: aliceblue;
+    font-size: 30px;
+    display: block;
+}
+
+.linkk {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: transparent;
+    border: 3px solid aliceblue;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 15px 0;
+    width: 300px;
+    transition: 0.3s;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    user-select: none;
+    margin-bottom: 80px;
+}
+
+.linkk:hover,
+.linkk:active {
+    width: 350px;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    border: 6px double rgb(161, 61, 255);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.circle2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(161, 61, 255);
+    transform: scale(0);
+    opacity: 1;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 9999;
+}
+
+@media screen and (max-width: 850px) {
+    .baslik {
+        margin-top: 10%;
+        font-size: 250px;
+    }
+
+    .metin {
+        font-size: 25px;
+    }
+
+    .linkk {
+        border: 3px solid aliceblue;
+        font-size: 20px;
+        margin-top: 40px;
+        padding: 10px 0;
+        width: 250px;
+        transition: 0.3s;
+    }
+
+    .linkk:hover,
+    .linkk:active {
+        width: 300px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .circle2 {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .baslik {
+        margin-top: 25%;
+        font-size: 180px;
+    }
+
+    .metin {
+        font-size: 17px;
+    }
+
+    .linkk {
+        border: 3px solid aliceblue;
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 10px 0;
+        width: 200px;
+    }
+
+    .linkk:hover,
+    .linkk:active {
+        width: 250px;
+    }
+
+    .circle2 {
+        width: 6px;
+        height: 6px;
+    }
+}

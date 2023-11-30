@@ -1,0 +1,26 @@
+.mainn {
+    padding: 50px 0;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    background-color: rgb(14, 14, 14);
+}
+
+.h22 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.pp {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
